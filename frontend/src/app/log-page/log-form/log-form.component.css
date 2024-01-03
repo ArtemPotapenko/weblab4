@@ -1,0 +1,66 @@
+.auth{
+  text-align: center;
+  margin-left: auto;
+  font-size: 25pt;
+}
+.auth p{
+  color: white;
+  padding: 20px;
+  font-size: 25pt;
+}
+input[type = button]{
+  color: white;
+  background: green;
+}
+input[type = submit]:hover{
+  background: lightgreen;
+}
+.login{
+  margin-top: 70px;
+}
+.password{
+  margin-top: 30px;
+}
+.error_msg p{
+  color: red;
+  font-size: 15pt;
+}
+@media screen and (min-width: 1202px) {
+  input[type = button] {
+    width: 350px;
+    margin-top: 30px;
+  }
+  .auth input[type="text"], input[type="password"], input[type=submit]{
+    height: 40px;
+    width: 500px;
+    font-size: 25pt;
+
+  }
+}
+
+@media screen and (min-device-width: 834px) and (max-device-width: 1201px) {
+  input[type = button] {
+    width: 350px;
+    margin-top: 25px;
+  }
+
+  .auth input[type="text"], input[type="password"], input[type=submit]{
+    height: 35px;
+    width: 450px;
+    font-size: 22pt;
+
+  }
+}
+
+@media only screen and (max-device-width: 833px) {
+  input[type = button] {
+    width: 350px;
+    margin-top: 22px;
+  }
+
+  .auth input[type="text"], input[type="password"], input[type=submit]{
+    height: 30px;
+    width: 400px;
+    font-size: 20pt;
+  }
+}

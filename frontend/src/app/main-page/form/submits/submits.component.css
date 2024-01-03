@@ -1,0 +1,33 @@
+#item-submit {
+  display: block;
+}
+
+#item-submit button {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1202px) {
+
+  #item-submit button span {
+    font-size: 15pt;
+  }
+}
+
+@media screen and (min-device-width: 834px) and (max-device-width: 1201px) {
+
+  #item-submit button span {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (max-device-width: 833px) {
+
+  #item-submit button span {
+    font-size: 10pt;
+  }
+}
+
+#item-submit button:hover {
+  color: #8f6e4f;
+}

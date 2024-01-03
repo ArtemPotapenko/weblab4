@@ -1,0 +1,22 @@
+<section class="picture">
+    <div class="picture__title">
+        <h2>Поле</h2>
+    </div>
+    <div class="picture__items">
+        <app-field [radius]="1"  [style.display]="radius==1 ?'block':'none'"></app-field>
+        <app-field [radius]="2"  [style.display]="radius==2 ?'block':'none'"></app-field>
+        <app-field [radius]="3"  [style.display]="radius==3 ?'block':'none'"></app-field>
+        <app-field [radius]="4"  [style.display]="radius==4 ?'block':'none'"></app-field>
+        <app-field [radius]="5" [style.display]="radius==5 ?'block':'none'"></app-field>
+    </div>
+    <div class="picture__arrows container">
+        <div class="picture__arrow" id="left-arrow" (click)="clickLeft()">
+            <img src="assets/img/arrow.svg" class="no-hover-img" alt="" height="46" width="116">
+            <img src="assets/img/arrow_h.svg" class="hover-img" alt="" height="46" width="116">
+        </div>
+        <div class="picture__arrow" id="right-arrow" (click)="clickRight()">
+            <img src="assets/img/arrow.svg" class="no-hover-img" alt="" height="46" width="116">
+            <img src="assets/img/arrow_h.svg" class="hover-img" alt="" height="46" width="116">
+        </div>
+    </div>
+</section>

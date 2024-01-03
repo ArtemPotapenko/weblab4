@@ -1,0 +1,9 @@
+<div style="text-align: center">
+  <div class="choice-all__item-title">
+    <h3>Выберете значение Y:</h3>
+  </div>
+  <input type="text" pInputText disabled [(ngModel)]="value" class="input" />
+  <p-slider [min]="-5.0" [max]="5.0" [step]="0.2" (ngModelChange)="getValue()" [(ngModel)]="value" [style]="{'width.%': 100}">
+
+</p-slider>
+</div>

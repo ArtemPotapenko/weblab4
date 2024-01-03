@@ -1,0 +1,17 @@
+<section class="choice-all">
+    <div class="choice-all__items container">
+        <div class="choice-all__item" id="x">
+            <app-x-input ></app-x-input>
+        </div>
+        <div class="choice-all__item" id="y">
+            <app-y-input ></app-y-input>
+        </div>
+        <div class="choice-all__item" id="r" >
+            <app-r-input (eventGetValue)="changeRadius($event)"></app-r-input >
+        </div>
+      <div class="choice-all__item">
+        <app-submits></app-submits>
+      </div>
+
+    </div>
+</section>

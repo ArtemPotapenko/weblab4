@@ -1,0 +1,55 @@
+
+.picture {
+    text-align: center;
+}
+
+.picture__title {
+    padding: 15px;
+}
+
+.picture__title h2 {
+    color: #8f6e4f;
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+.picture__arrows {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view {
+    display: block;
+}
+
+.non-view {
+    display: none;
+}
+
+
+.non-view {
+    display: none;
+}
+
+
+.picture__arrow {
+    padding: 30px;
+}
+
+.picture__arrow:hover .no-hover-img {
+    display: none;
+}
+
+.picture__arrow:hover .hover-img {
+    display: block;
+}
+
+.hover-img {
+    display: none;
+}
+
+#left-arrow {
+    transform: rotate(180deg);
+}
+

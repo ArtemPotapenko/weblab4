@@ -1,0 +1,10 @@
+
+.choice-all__items {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice-all__item {
+    width: 22%;
+}

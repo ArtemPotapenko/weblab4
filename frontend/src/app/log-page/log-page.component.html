@@ -1,0 +1,12 @@
+<div class="form">
+  <app-log-form *ngIf="login">
+
+  </app-log-form>
+  <app-reg-form *ngIf="!login">
+
+  </app-reg-form>
+</div>
+<div class="reduce">
+<input  type="button" class="btn btn-outline-success" *ngIf="login" value="Нет аккаунта" (click)="login = false">
+<input  type="button" class="btn btn-outline-success" *ngIf="!login" value="Уже есть аккаунт" (click)="login = true">
+</div>

@@ -1,0 +1,117 @@
+/*
+Ширина блока                    width: 1300px;
+Высота блока                    height: 58px;
+Выровнять по цетру блок         margin: 0 auto;
+Фоновый цвет                    background-color:
+Выстроить блоки в строку        display: flex;
+Растянуть блоки по ширине       justify-content: space-between;
+Перенос блока на новую строку
+если не помещается в текущей    flex-wrap: wrap;
+Внутренний отступ сверху        padding-top: 15px;
+Закругленные углы блока         border-radius:
+Жирность текста                 font-weight: 400; 400 норм,700 жирный
+
+Тень вокруг блок                box-shadow: 1px 12px 15px -5px rgba(41,64,211,.08);
+Конструктор теней               https://active-vision.ru/icon/box-shadow/
+При добавлении отступов ширина
+блока увеличивается.
+Чтобы отступы включились в ширину
+ставим свойство                 box-sizing: border-box;
+Подчеркивание                   text-decoration: none; или underline;
+Верхний регистр                 text-trasform: uppercase;
+Эффект при наведении            a:hover{стили};
+Прозрачность                    opacity: 0.6;
+Замедление                      transition: 1.5s ease-in-out;
+При наведении увеличить фото
+У родителя ставим:
+скрывать края                   overflow: hidden;
+установить масштаб              transform: scale(1.2);
+
+
+*/
+
+/* Сброс стилей */
+/* Сброс */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+* { /*   Универсальный селектор */
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* конец сброса */
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+.table-container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.table-container thead{
+    color: white;
+    background: #0b161c;
+}
+.table-container th{
+    width: 20%;
+    text-align: center;
+}
+.table-container td{
+    width: 20%;
+    padding: 20px;
+}
+.table-container tr td{
+    color: blue;
+    text-align: center;
+    background-color: black;
+}
